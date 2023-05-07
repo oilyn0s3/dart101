@@ -18,7 +18,18 @@ void main() {
   // for more complex expressions we use ${}
   print("complexity ${str is String}");
 
+  // those were implicit type variables
+  // now onto implicit types or real variables if we 
+  // don't wanna specify the type or a dynamic type (avoid)
 
+  var username;
+  username = 'andy'; // reassignable
 
+  // if we want something constant 
+  final String fullname = "poop";
+
+  // const keyword is like final, but is immutable compile-time constant
+  const int age = 99;
+  // const int favnum = num1 + 5; will throw error
 
 }
