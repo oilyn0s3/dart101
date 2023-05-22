@@ -44,4 +44,8 @@ void main() {
 
   // anonymous function
   () => 'hello';
+  takeone(Function takeSome) {
+    takeSome();
+  }
+  takeone(takeTen);
 }

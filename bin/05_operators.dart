@@ -13,10 +13,10 @@ void main() {
 
   // Assignment
   String? name; // a nullable value
-  name ??=
-      'Guest'; // this means assign a value if null, else use the current value
 
   var z = name ?? 'Guest'; // assign name if not null else assign 'Guest'
+  name ??=
+      'Guest'; // this means assign a value if null, else use the current value
 
   // Ternary operators
   String color = 'blue';
