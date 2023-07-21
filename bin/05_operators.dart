@@ -20,7 +20,7 @@ void main() {
 
   // Ternary operators
   String color = 'blue';
-  //                  condition    ? value if true : value if false
+  //                  condition        ? value if true : value if false
   var isThisBlue = color == 'blue' ? 'Yes, it is.' : 'Nope';
 
   // cascade s
