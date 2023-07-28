@@ -25,5 +25,6 @@ void main() {
     print("key ${b.key} value ${b.value}");
   }
 
-  someStrIntMap.forEach((key, value) => print("key $key value $value "));
+  someStrIntMap
+      .forEach((key, value) => print("key $key value $value ")); // for each
 }
