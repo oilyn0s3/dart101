@@ -20,7 +20,6 @@ void main() {
   someRandomMap.values.toList(); // to convert the iterable to a list
 
   // To loop over the Map
-
   for (MapEntry b in someRandomMap.entries) {
     print("key ${b.key} value ${b.value}");
   }
